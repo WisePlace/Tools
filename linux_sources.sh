@@ -6,6 +6,9 @@ sources_file="/etc/apt/sources.list"
 os_list=("debian11" "debian12")
 os="$ID$VERSION_ID"
 
+version="1.0"
+author="WisePlace"
+
 RED="\e[31m"
 GREEN="\e[32m"
 YELLOW="\e[33m"
