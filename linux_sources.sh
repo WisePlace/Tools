@@ -48,8 +48,8 @@ os_check(){
                 if [ "$choice" == y ] || [ "$choice" == Y ]
                 then
                     echo -e "${LYELLOW}Updating packages..${RESET}"
-                    apt update -y >/dev/null
-                    apt upgrade -y >/dev/null
+                    apt update -y >/dev/null 2>&1
+                    apt upgrade -y >/dev/null 2>&1
                     echo -e "${LGREEN}Packages updated successfully.${RESET}"
                     echo -e "${MAGENTA}Exiting..${RESET}"
                     exit 0
