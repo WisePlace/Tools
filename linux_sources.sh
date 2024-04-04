@@ -66,57 +66,57 @@ os_check(){
 }
 
 sources_debian10(){
-    echo "deb http://deb.debian.org/debian buster main contrib non-free" >> "$sources_list"
-    echo "deb http://deb.debian.org/debian buster-updates main contrib non-free" >> "$sources_list"
-    echo "deb http://deb.debian.org/debian buster-backports main contrib non-free" >> "$sources_list"
-    echo "deb http://security.debian.org/debian-security/ buster/updates main contrib non-free" >> "$sources_list"
+    echo "deb http://deb.debian.org/debian buster main contrib non-free" >> "$sources_file"
+    echo "deb http://deb.debian.org/debian buster-updates main contrib non-free" >> "$sources_file"
+    echo "deb http://deb.debian.org/debian buster-backports main contrib non-free" >> "$sources_file"
+    echo "deb http://security.debian.org/debian-security/ buster/updates main contrib non-free" >> "$sources_file"
 }
 
 sources_debian11(){
-    echo "deb http://deb.debian.org/debian bullseye main contrib non-free" >> "$sources_list"
-    echo "deb http://deb.debian.org/debian bullseye-updates main contrib non-free" >> "$sources_list"
-    echo "deb http://deb.debian.org/debian bullseye-backports main contrib non-free" >> "$sources_list"
-    echo "deb http://security.debian.org/debian-security/ bullseye-security main contrib non-free" >> "$sources_list"
+    echo "deb http://deb.debian.org/debian bullseye main contrib non-free" >> "$sources_file"
+    echo "deb http://deb.debian.org/debian bullseye-updates main contrib non-free" >> "$sources_file"
+    echo "deb http://deb.debian.org/debian bullseye-backports main contrib non-free" >> "$sources_file"
+    echo "deb http://security.debian.org/debian-security/ bullseye-security main contrib non-free" >> "$sources_file"
 }
 
 sources_debian12(){
-    echo "deb http://deb.debian.org/debian/ bookworm contrib main non-free non-free-firmware" >> "$sources_list"
-    echo "deb http://deb.debian.org/debian/ bookworm-updates contrib main non-free non-free-firmware" >> "$sources_list"
-    echo "deb http://deb.debian.org/debian/ bookworm-proposed-updates contrib main non-free non-free-firmware" >> "$sources_list"
-    echo "deb http://deb.debian.org/debian/ bookworm-backports contrib main non-free non-free-firmware" >> "$sources_list"
-    echo "deb http://deb.debian.org/debian-security/ bookworm-security contrib main non-free non-free-firmware" >> "$sources_list"
+    echo "deb http://deb.debian.org/debian/ bookworm contrib main non-free non-free-firmware" >> "$sources_file"
+    echo "deb http://deb.debian.org/debian/ bookworm-updates contrib main non-free non-free-firmware" >> "$sources_file"
+    echo "deb http://deb.debian.org/debian/ bookworm-proposed-updates contrib main non-free non-free-firmware" >> "$sources_file"
+    echo "deb http://deb.debian.org/debian/ bookworm-backports contrib main non-free non-free-firmware" >> "$sources_file"
+    echo "deb http://deb.debian.org/debian-security/ bookworm-security contrib main non-free non-free-firmware" >> "$sources_file"
 }
 
 sources_ubuntu20(){
-    echo "deb http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse" >> "$sources_list"
-    echo "deb http://archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse" >> "$sources_list"
-    echo "deb http://archive.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse" >> "$sources_list"
-    echo "deb http://archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse" >> "$sources_list"
-    echo "deb http://archive.canonical.com/ubuntu focal partner" >> "$sources_list"
+    echo "deb http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse" >> "$sources_file"
+    echo "deb http://archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse" >> "$sources_file"
+    echo "deb http://archive.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse" >> "$sources_file"
+    echo "deb http://archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse" >> "$sources_file"
+    echo "deb http://archive.canonical.com/ubuntu focal partner" >> "$sources_file"
 }
 
 sources_ubuntu20.04(){
-    echo "deb http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse" >> "$sources_list"
-    echo "deb http://archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse" >> "$sources_list"
-    echo "deb http://archive.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse" >> "$sources_list"
-    echo "deb http://archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse" >> "$sources_list"
-    echo "deb http://archive.canonical.com/ubuntu focal partner" >> "$sources_list"
+    echo "deb http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse" >> "$sources_file"
+    echo "deb http://archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse" >> "$sources_file"
+    echo "deb http://archive.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse" >> "$sources_file"
+    echo "deb http://archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse" >> "$sources_file"
+    echo "deb http://archive.canonical.com/ubuntu focal partner" >> "$sources_file"
 }
 
 sources_ubuntu22(){
-    echo "deb http://archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse" >> "$sources_list"
-    echo "deb http://archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse" >> "$sources_list"
-    echo "deb http://archive.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse" >> "$sources_list"
-    echo "deb http://archive.ubuntu.com/ubuntu/ jammy-backports main restricted universe multiverse" >> "$sources_list"
-    echo "deb http://archive.canonical.com/ubuntu/ jammy partner" >> "$sources_list"
+    echo "deb http://archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse" >> "$sources_file"
+    echo "deb http://archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse" >> "$sources_file"
+    echo "deb http://archive.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse" >> "$sources_file"
+    echo "deb http://archive.ubuntu.com/ubuntu/ jammy-backports main restricted universe multiverse" >> "$sources_file"
+    echo "deb http://archive.canonical.com/ubuntu/ jammy partner" >> "$sources_file"
 }
 
 sources_ubuntu22.04(){
-    echo "deb http://archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse" >> "$sources_list"
-    echo "deb http://archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse" >> "$sources_list"
-    echo "deb http://archive.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse" >> "$sources_list"
-    echo "deb http://archive.ubuntu.com/ubuntu/ jammy-backports main restricted universe multiverse" >> "$sources_list"
-    echo "deb http://archive.canonical.com/ubuntu/ jammy partner" >> "$sources_list"
+    echo "deb http://archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse" >> "$sources_file"
+    echo "deb http://archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse" >> "$sources_file"
+    echo "deb http://archive.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse" >> "$sources_file"
+    echo "deb http://archive.ubuntu.com/ubuntu/ jammy-backports main restricted universe multiverse" >> "$sources_file"
+    echo "deb http://archive.canonical.com/ubuntu/ jammy partner" >> "$sources_file"
 }
 
 # EXEC #
