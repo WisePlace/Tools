@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # CME #
 read -p "Protocol (winrm/ldap/ssh/smb/mssql): " protocol
 read -p "Target: " target
